@@ -7,5 +7,11 @@
       >
         Adicionar pensamento
       </button>
+
+      <div class="mural">
+        <div *ngFor="let pensamento of listarPensamentos">
+          <app-pensamento></app-pensamento>
+        </div>
+      </div>
   </header>
 </section>
